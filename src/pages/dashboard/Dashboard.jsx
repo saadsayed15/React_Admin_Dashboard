@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import { DownloadOutlined } from "@mui/icons-material";
 import { Box, Stack, Typography, useTheme } from "@mui/material";
 import Row3 from "./Row3";
-import Header from "../../components/Header";
+// import Header from "../../components/Header";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -15,11 +15,11 @@ const Dashboard = () => {
         sx={{ justifyContent: "space-between", alignItems: "center" }}
         direction={"row"}
       >
-        <Header
+        {/* <Header
           isDashboard={true}
           title={"DASHBOARD"}
           subTitle={"Welcome to your dashboard"}
-        />
+        /> */}
 
         <Box sx={{ textAlign: "right", mb: 1.3 }}>
           <Button

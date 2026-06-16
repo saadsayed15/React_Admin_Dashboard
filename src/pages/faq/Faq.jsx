@@ -5,7 +5,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Box, Stack } from "@mui/material";
-import Header from "../../components/Header";
+// import Header from "../../components/Header";
 
 const FAQ = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -15,7 +15,7 @@ const FAQ = () => {
   };
   return (
     <Box>
-      <Header title="FAQ" subTitle="Frequently Asked Questions Page" />
+      {/* <Header title="FAQ" subTitle="Frequently Asked Questions Page" /> */}
 
       <Stack direction={"column"} spacing={2}>
         <Accordion defaultExpanded onChange={handleChange("panel1")}>

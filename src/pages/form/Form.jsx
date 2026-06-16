@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import { Alert, Button, MenuItem, Snackbar, Stack } from "@mui/material";
 import { useForm } from "react-hook-form";
-import Header from "../../components/Header";
+// import Header from "../../components/Header";
 
 const regEmail =
   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -56,7 +56,7 @@ const Form = () => {
 
   return (
     <Box>
-      <Header title="CREATE USER" subTitle="Create a New User Profile" />
+      {/* <Header title="CREATE USER" subTitle="Create a New User Profile" /> */}
 
       <Box
         onSubmit={handleSubmit(onSubmit)}
