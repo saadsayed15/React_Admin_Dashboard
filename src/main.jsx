@@ -24,7 +24,7 @@ import NotFound from "./pages/Notfound/NotFound";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route index element={<Dashboard />} />
+      <Route path="/" index element={<Dashboard />} />
       <Route path="team" element={<Team />} />
       <Route path="contacts" element={<Contacts />} />
       <Route path="invoices" element={<Invoices />} />
